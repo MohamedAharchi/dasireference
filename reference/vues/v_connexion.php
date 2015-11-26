@@ -7,7 +7,7 @@
                 </div>
                 <div class="panel-body">
                     <!-- Formulaire de connexion -->
-                    <form role="form" action="index.php?uc=connexion" method="POST">
+                    <form role="form" action="index.php?uc=connexion&action=passToHome" method="POST">
                         <fieldset>
                             <div class="row">
                                 <div class="center-block">

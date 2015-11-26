@@ -14,6 +14,10 @@ switch($action) {
         include "vues/v_connexion.php";
         break;
     
+    case "passToHome" :
+        include "vues/v_home.php";
+        break;
+    
     default :
         include "vues/v_connexion.php";
         break;
