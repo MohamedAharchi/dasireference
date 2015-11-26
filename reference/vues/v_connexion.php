@@ -12,7 +12,7 @@
                             <div class="row">
                                 <div class="center-block">
                                     <img class="profile-img"
-                                         src="images/logo.png" alt="">
+                                         src="images/user.png" alt="">
                                 </div>
                             </div>
                             <!-- Message d'erreur -->
