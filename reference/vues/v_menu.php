@@ -28,6 +28,7 @@
                       <li><a href="#">One more separated link</a></li>
                     </ul>
                   </li>
+                  <li><a href="index.php?uc='connexion&action=disconnect'" class="btn btn_default">Deconnexion</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
