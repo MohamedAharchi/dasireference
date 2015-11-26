@@ -26,8 +26,8 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <a href="#" class="btn btn-danger" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancel</a>
-                            <button class="btn btn-primary" type="submit">Send</button>
+                            <button class="btn btn-success" type="submit">Send</button>
+                            <a href="#" class="btn btn-danger" data-dismiss="modal">Cancel</a>                            
                         </div>
                     </form>
                 </div>

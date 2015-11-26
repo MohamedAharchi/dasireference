@@ -1,7 +1,7 @@
 <div class="container" style="margin-top:40px">
     <div class="row">
         <div class="col-sm-6 col-md-4 col-md-offset-4">
-            <div class="panel panel-default">
+            <div id="connexion" class="panel panel-default">
                 <div class="panel-heading">
                     <strong> Connexion</strong>
                 </div>
@@ -11,8 +11,7 @@
                         <fieldset>
                             <div class="row">
                                 <div class="center-block">
-                                    <img class="profile-img"
-                                         src="images/logo.png" alt="">
+                                    <center><img class="profile-img" src="images/icon-profile.png" alt=""></center>
                                 </div>
                             </div>
                             <!-- Message d'erreur -->
@@ -44,7 +43,35 @@
                     <!-- Fin du formulaire de connexion -->
                 </div>
                 <div class="panel-footer ">
-                    Don't have account ? <a href="#" onClick=""> Tel us </a>
+                    Don't have account ? <a href="#" id="signup" > Register here ! </a>
+                </div>
+            </div>
+            <div id="register" class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 well well-sm">
+                        <legend><a href="http://www.jquery2dotnet.com"><i class="glyphicon glyphicon-globe"></i></a> Sign up!</legend>
+                        <form action="#" method="post" class="form" role="form">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-6">
+                                <input class="form-control" name="firstname" placeholder="First Name" type="text"
+                                    required autofocus />
+                            </div>
+                            <div class="col-xs-6 col-md-6">
+                                <input class="form-control" name="lastname" placeholder="Last Name" type="text" required />
+                            </div>
+                        </div>
+                        <input class="form-control" name="youremail" placeholder="Your Email" type="email" />
+                        <input class="form-control" name="reenteremail" placeholder="Re-enter Email" type="email" />
+                        <input class="form-control" name="password" placeholder="Password" type="password" />
+                        <input class="form-control" name="reenterpassword" placeholder="Re-enter Password" type="password" />
+
+                        <br />
+                        <br />
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">
+                            Sign up</button>
+                        </form>
+                        <span><a href="#" id="backconnexion">Back to connexion</a></span>
+                    </div>
                 </div>
             </div>
         </div>
