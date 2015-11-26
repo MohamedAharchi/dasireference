@@ -19,6 +19,7 @@ switch($action) {
             $reenteremail = $_POST['reenteremail'];
             $password = $_POST['password'];
             $reenterpassword = $_POST['reenterpassword'];
+            echo "Test";
         }
         include "vues/v_connexion.php";
         break;
