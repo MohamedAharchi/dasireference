@@ -27,7 +27,7 @@
                     }
                 </style>
                 <fieldset class='fieldset'>
-                    <legend>Un chat en jQuery</legend>
+                    <center><legend>Chat</legend></center>
                     <div id="conversation"></div><br />
                     <form action="#" method="post">
                         <input type="text" id="nom" value="pseudo" size="6">
