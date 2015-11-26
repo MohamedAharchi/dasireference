@@ -12,3 +12,4 @@
                 <div class="col-md-1"></div>
             </div>
         </div>
+<?php include'vues/v_contact.php';  ?>

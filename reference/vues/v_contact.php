@@ -1,21 +1,35 @@
-<div id="form-content" class="modal hide fade in" style="display: none;">
-    <div class="modal-header">
-        <a class="close" data-dismiss="modal">×</a>
-        <h3>Send me a message</h3>
-    </div>
-    <div class="modal-body">
-        <form class="contact" name="contact">
-            <label class="label" for="name">Your Name</label><br>
-            <input type="text" name="name" class="input-xlarge"><br>
-            <label class="label" for="email">Your E-mail</label><br>
-            <input type="email" name="email" class="input-xlarge"><br>
-            <label class="label" for="message">Enter a Message</label><br>
-            <textarea name="message" class="input-xlarge"></textarea>
-        </form>
-    </div>
-    <div class="modal-footer">
-        <input class="btn btn-success" type="submit" value="Send!" id="submit">
-        <a href="#" class="btn" data-dismiss="modal">Cancel</a>
-    </div>
-</div>
-<div id="thanks"><p><a data-toggle="modal" href="#form-content" class="btn btn-primary btn-large">Thank you</a></p></div>
+<div class="modal fade" id="contact" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form action="index.php?uc=contact&action=validMessage" method="POST" class="form-horizontal">
+                        <div class="modal-header">
+                            <h4>Contact</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="contact-name" class="col-lg-2 control-label">Your name</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" id="contact-name" name="contact-name" placeholder="Name" required />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-mail" class="col-lg-2 control-label">Your e-mail</label>
+                                <div class="col-lg-10">
+                                    <input type="email" class="form-control" id="contact-mail" name="contact-mail" placeholder="you@example.com" required />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-message" class="col-lg-2 control-label">Your message</label>
+                                <div class="col-lg-10">
+                                    <textarea class="form-control" name="contact-message" rows="8" required ></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="btn btn-danger" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancel</a>
+                            <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
