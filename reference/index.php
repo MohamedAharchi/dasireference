@@ -30,7 +30,7 @@ session_start();
     /* Recuperation var of the control by url ($_GET or $_REQUEST)*/
     if (!isset($_REQUEST['uc'])) {
         /* if $_REQUEST['uc'] not exist, then uc = connexion */
-        $uc = "connexion";
+        $uc = "home";
     }
 
     else {
