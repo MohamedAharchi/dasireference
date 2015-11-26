@@ -44,7 +44,7 @@
                     <!-- Fin du formulaire de connexion -->
                 </div>
                 <div class="panel-footer ">
-                    Vous n'avez pas de compte ? <a href="#" onClick=""> Faites une demande </a>
+                    Don't have account ? <a href="#" onClick=""> Tel us </a>
                 </div>
             </div>
         </div>
