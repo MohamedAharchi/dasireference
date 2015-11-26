@@ -1,14 +1,11 @@
 <?php
-
 class ChatMessage 
 {
     private $id;
     private $title;
     private $content;
     private $date;
-    private $author;
-    
-    
+    private $author;  
     
     function getId() {
         return $this->id;

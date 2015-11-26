@@ -22,7 +22,7 @@
                     }
                     .fieldset {
                         width: 330px;
-                        background-color: #e6e2af;
+                        background-color: #147EFB;
                         border: black 1px solid;
                     }
                 </style>
@@ -46,17 +46,15 @@
             $('#envoyer').click(function() {
                 var nom = $('#nom').val();
                 var message = $('#message').val();
-                $.post('vues/chat.php', {'nom':nom, 'message': message }, function() {
+                $.post('vues/v_chat.php', {'nom':nom, 'message': message }, function() {
                     afficheConversation;
                 });
-		$('#message').focus();
+		$('#message').focus();                
+                $('#message').val('');
             });
 
             function afficheConversation() {
-                $('#conversation').load('vues/ac.htm');
-                if (!$('#message').is(':focus')) {
-                    $('#message').val('');
-                }
+                $('#conversation').load('vues/v_messageChat.htm');
             }
             setInterval(afficheConversation, 1000);
         });

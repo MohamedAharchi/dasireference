@@ -9,6 +9,10 @@ class CurrentStudent {
     private $lastname;
     private $mail;
     private $class;
+    
+    public function __construct(){
+        
+    }
 
     function getId() {
         return $this->id;
@@ -66,6 +70,6 @@ class CurrentStudent {
         $this->class = $class;
     }
 
-
+    
     
 }

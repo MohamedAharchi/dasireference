@@ -60,7 +60,7 @@
                                 <input class="form-control" name="lastname" placeholder="Last Name" type="text" required />
                             </div>
                         </div>
-                        <input class="form-control" name="youremail" placeholder="Your Email" type="email" />
+                        <input class="form-control" name="email" placeholder="Your Email" type="email" />
                         <input class="form-control" name="reenteremail" placeholder="Re-enter Email" type="email" />
                         <input class="form-control" name="password" placeholder="Password" type="password" />
                         <input class="form-control" name="reenterpassword" placeholder="Re-enter Password" type="password" />

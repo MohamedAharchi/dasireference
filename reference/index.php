@@ -43,6 +43,10 @@ session_start();
             include "controls/c_connexion.php";
             break;
 
+        case "registration" :
+            include "controls/c_registration.php";
+            break;
+        
         case "home" :
             include "controls/c_home.php";
             break;
