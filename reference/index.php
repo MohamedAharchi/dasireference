@@ -50,6 +50,10 @@ session_start();
         case "home" :
             include "controls/c_home.php";
             break;
+        
+        case "account" :
+            include "controls/c_account.php";
+            break;
 
         case "schedule" :
             include "controls/c_schedule.php";
