@@ -31,6 +31,7 @@
                     </ul>
                   </li>                  
                   <li><a href="index.php?uc=contact" data-toggle="modal">Contact</a></li>
+                  <li><a href="index.php">My Account</a></li>
                   <li><a href="index.php?uc=connexion&action=disconnect" class="btn btn_default" onclick="return confirm('Do you really want to disconnect ?')">Disconnect</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->

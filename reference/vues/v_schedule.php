@@ -5,7 +5,7 @@
                 <div class="jumbotron col-md-10">
                     <center>
                         <h1>Schedule</h1>
-                        <p>You can look you're schedule <a href="http://edt.jordan-martin.fr/bxd#!">here !</a></p>
+                        <p>You can look you're schedule <a href="http://edt.jordan-martin.fr/bxd#!" target="blank">here !</a></p>
                     </center>                    
                 </div>
                 <div class="col-md-1"></div>
