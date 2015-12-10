@@ -16,7 +16,7 @@
                 <ul class="nav navbar-nav">
                   <li><a href="index.php?uc=schedule">Schedule</a></li>
                   <li><a href="index.php?uc=homework">Homework</a></li>
-                  <li><a href="index.php?uc=lesson">Lessons</a></li>
+                  <li><a href="index.php?uc=lessons">Lessons</a></li>
                   <li><a href="index.php?uc=link">Useful links</a></li>
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
