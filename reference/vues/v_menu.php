@@ -15,7 +15,7 @@
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                  <li><a href="#">Schedule</a></li>
+                  <li><a href="index.php?uc=schedule">Schedule</a></li>
                   <li><a href="#">Homework</a></li>
                   <li><a href="#">Lessons</a></li>
                   <li><a href="#">Useful links</a></li>
