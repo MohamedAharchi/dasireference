@@ -40,7 +40,17 @@ class Homework
         $this->subject = $subject;
     }
 
-
+    public function findAll() {
+     $sql = "select * from HOMEWORK";
+     $result = $this->getDb()->fetchAll($sql);
+     // Converts query result to an array of domain objects
+     $typeTravels = array();
+     foreach ($result as $row) {
+         $typeTravelId = $row['ID_HOMEWORK'];
+         $typeTravels[$typeTravelId] = $this->buildDomainObject($row);
+     }
+     return $typeTravels;
+    }
     
 
 

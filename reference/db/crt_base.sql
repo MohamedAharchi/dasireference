@@ -70,6 +70,7 @@ create table DOCUMENT
    ID_CURRENTSTUDENT    integer                        not null,
    TITLE_DOCUMENT       varchar(200)                   not null,
    DATE_DOCUMENT        date                           not null,
+   PATH_DOCUMENT         varchar(300)                   not null,
    constraint PK_DOCUMENT primary key (ID_DOCUMENT)
 );
 
@@ -170,3 +171,32 @@ alter table JOBOFFER
       on update restrict
       on delete restrict;
 
+
+ /*CurrentStudent*/
+ INSERT INTO CurrentStudent VALUES ('dasiacmd', 'dasiacmd', 'sadmin', 'admin', 'admin@gmail.com')
+ 
+ /*Document*/
+INSERT INTO Document VALUES ('EnglishProject1','26/11/2015')
+INSERT INTO DOCUMENT values (3, 1, 'Atelier Partition', '05/11/2015', '/images/Atelier_Partition.docx') 
+INSERT INTO DOCUMENT values (4, 1, 'Atelier Processus', '05/11/2015', '/images/Atelier_Processus.docx') 
+INSERT INTO DOCUMENT values (5, 1, 'Generalités UNIX.docx', '05/11/2015', '/images/Atelier_Partition.docx') 
+INSERT INTO DOCUMENT values (6, 1, 'Atelier Partition', '05/11/2015', '/images/Atelier_Partition.docx') 
+
+ 
+ /*OldStudent*/
+ INSERT INTO OldStudent VALUES ('Charlemagne','2010','developer','I am the best')
+ 
+ /*Information*/
+  INSERT INTO Information ('TITLE','CONTENT','26/11/2015', '30/11/2015')
+  
+ /*Homework*/
+  INSERT INTO Homework VALUES ('English','26/11/2015','EnglishProject')
+   
+ /*ArticleTech*/
+  INSERT INTO ArticleTech VALUES ('English', 'YES WE CAN !!', '26/11/2015','ALEXANDER')
+   
+ /*ChatMessage*/
+  INSERT INTO ChatMessage ('English', 'Can you repete the question ?', '26/11/2015')
+   
+ /*JobOffer*/
+  INSERT INTO ChatMessage VALUES ('English', 'YES YOU CAN !!', '26/12/2015','PARIS')
