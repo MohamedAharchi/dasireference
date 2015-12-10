@@ -1,3 +1,5 @@
+<?php include 'v_menu.php'; ?>
+
 <div class="modal fade" id="contact" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">

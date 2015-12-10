@@ -62,7 +62,23 @@ session_start();
         case "contact" :
             include "controls/c_contact.php";
             break;
+        
+        case "link" :
+            include "controls/c_useFullLinks.php";
+            break;
 
+        case "homework" :
+            include "controls/c_homework.php";
+            break;
+        
+        case "lessons" :
+            include "controls/c_lessons.php";
+            break;
+        
+        case "contact" :
+            include "controls/c_contact.php";
+            break;
+        
         default :
             include "controls/c_home.php";
             break;

@@ -14,11 +14,10 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
                   <li><a href="index.php?uc=schedule">Schedule</a></li>
-                  <li><a href="#">Homework</a></li>
-                  <li><a href="#">Lessons</a></li>
-                  <li><a href="#">Useful links</a></li>
+                  <li><a href="index.php?uc=homework">Homework</a></li>
+                  <li><a href="index.php?uc=lesson">Lessons</a></li>
+                  <li><a href="index.php?uc=link">Useful links</a></li>
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -31,7 +30,7 @@
                       <li><a href="#">One more separated link</a></li>
                     </ul>
                   </li>                  
-                  <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                  <li><a href="index.php?uc=contact" data-toggle="modal">Contact</a></li>
                   <li><a href="index.php?uc=connexion&action=disconnect" class="btn btn_default" onclick="return confirm('Do you really want to disconnect ?')">Disconnect</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
