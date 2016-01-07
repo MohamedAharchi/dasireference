@@ -4,9 +4,11 @@
                 <div class="col-md-1"></div>
                 <div class="jumbotron col-md-10">
                     <center>
-                    <h1>Hello, world!</h1>
-                    <p>...</p>
-                    <p><a class="btn btn-primary btn-lg" href="#" role="button">En savoir plus</a></p>
+                    <h1>DASI REFERENCE</h1>
+                    <h2>Concept</h2>                     
+                    <p>Dasi Reference whose aim is to help all DASI students (old and current). This website will allow to facilitate the communication between students. It will contain a lot of information and resources ( such as lessons).  We maked it because there is a real difficulty to access the information. That’s why we have create this platform which makes it easier.
+                    </p>
+                    <p>Have a nice day on Dasi Reference.</p>
                     </center>
                 </div>
                 <div class="col-md-1"></div>
