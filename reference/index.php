@@ -1,6 +1,8 @@
 <?php
 /* Start session */
 session_start();
+//require_once 'includes/Connexion.php';
+//$connexion = new connexion();
 ?>
 <!DOCTYPE html>
 <html lang="fr">

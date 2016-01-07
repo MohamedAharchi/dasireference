@@ -1,5 +1,5 @@
 <?php
-
+require_once 'Connexion.php';
 class CurrentStudent {
 
     private $id;
@@ -70,6 +70,24 @@ class CurrentStudent {
         $this->class = $class;
     }
 
+    
+    public function getStudent($login, $password) {
+        try
+        {
+            $connexion = new connexion();
+            $conn = $connexion->getConnexion();
+            
+            $sql = "select ID_CURRENTSTUDENT, LOGIN_CURRENTSTUDENT, PASSWORD_CURRENTSTUDENT, NAME_CURRENTSTUDENT, LASTNAME_CURRENTSTUDENT, MAIL_CURRENTSTUDENT, CLASS_CURRENTSTUDENT "
+                    . "from CURRENTSTUDENT where LOGIN_CURRENTSTUDENT = ".$login." and PASSWORD_CURRENTSTUDENT = ".$password."";
+            $req = $conn->query($sql);
+            $req -> setFetchMode(PDO::FETCH_OBJ);
+            return $req;
+        }
+        catch(PDOException $e)
+        {
+            $erreur = $e->getMessage();
+        }
+    }
     
     
 }
