@@ -3,7 +3,7 @@
         <div class="col-sm-6 col-md-4 col-md-offset-4">
             <div id="connexion" class="panel panel-default">
                 <div class="panel-heading">
-                    <strong> Connexion</strong>
+                    <strong> Login</strong>
                 </div>
                 <div class="panel-body">
                     <!-- Formulaire de connexion -->
@@ -70,7 +70,7 @@
                         <button class="btn btn-lg btn-primary btn-block" type="submit">
                             Sign up</button>
                         </form>
-                        <span><a href="#" id="backconnexion">Back to connexion</a></span>
+                        <span><a href="#" id="backconnexion">Back to login</a></span>
                     </div>
                 </div>
             </div>
